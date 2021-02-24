@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class helloWorld {
     
     public static void main(String[] args) {
@@ -16,5 +18,16 @@ public class helloWorld {
         Object o = theNumberThree;
         System.out.println(o);
 
+        String myName = "Johnny";
+        System.out.printf("Hello there, %s. Nice to see you!\n",myName);
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter Something: ");
+        String userInput = scanner.nextLine();
+
+        System.out.println("You entered \"" + userInput + "\" ");
+    
+       
     }
 }
