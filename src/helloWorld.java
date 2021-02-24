@@ -28,6 +28,6 @@ public class helloWorld {
 
         System.out.println("You entered \"" + userInput + "\" ");
     
-       
+        scanner.close();
     }
 }
