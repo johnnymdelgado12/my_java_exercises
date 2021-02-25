@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class consoleExercises {
     public static void main(String[] args) {
-        double pi = 3.14159;
-        System.out.printf("The value of pi is approximately %f\n", pi);
+    //    double pi = 3.14159;
+    //    System.out.printf("The value of pi is approximately %f\n", pi);
 
         Scanner scanner = new Scanner(System.in);
     /*    System.out.print("Enter a number: ");
         int myNumber = scanner.nextInt();
         System.out.println("You have entered " + myNumber); */
 
-        System.out.println("Please enter your first word: ");
+    /*    System.out.println("Please enter your first word: ");
         String myFirstWord = scanner.nextLine();
         System.out.println("Please enter your second word: ");
         String mySecondWord = scanner.nextLine();
@@ -21,7 +21,14 @@ public class consoleExercises {
 
         System.out.println("Please enter a sentence: ");
         String mySentence = scanner.nextLine();
-        System.out.println(mySentence);
+        System.out.println(mySentence); */
+        System.out.println("what is the width?");
+        int width = scanner.nextInt();
+        System.out.println("What is the length?");
+        int length = scanner.nextInt();
+        int perimeter = (width *2) + (length * 2);
+
+        System.out.println("The perimeter is " + perimeter);
 
         scanner.close();
     }
